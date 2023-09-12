@@ -10,8 +10,8 @@
     <form action="resultado.php" method="post">
 
         Universo:<br>
-        Marvel <input type="radio" id="radio" name="radio" value="Marvel"> -
-        DC <input type="radio" id="radio2" name="radio" value="DC"><br>
+        Marvel <input type="radio" id="radio" name="radioherois" value="Marvel"> -
+        DC <input type="radio" id="radio2" name="radioherois" value="DC"><br>
 
         <label for="herois"> Escolha um herói: </label>
 

@@ -1,6 +1,6 @@
 <?php
 
-$universo = $_POST["radio"];
+$universo = $_POST["radioherois"];
 $heroi = $_POST["herois"];
 $qtd_heroi = $_POST["quantidade"];
 if($universo == "DC"){
