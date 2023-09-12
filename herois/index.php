@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Heróis</title>
 </head>
 <body>
     
@@ -15,18 +15,20 @@
 
         <label for="herois"> Escolha um herói: </label>
 
-        <select name="herois" id="herois">
+        <select name="herois">
             <optgroup label="Marvel">
-                <option value="Homem de Ferro">Homem de Ferro</option>
-                <option value="Capitão América">Capitão América</option>
-                <option value="Gavião Arqueiro">Gavião Arqueiro</option>
-                <option value="Homem-Formiga">Homem-Formiga</option>
+                <option value="homemdeferro">Homem de Ferro</option>
+                <option value="capitaoamerica">Capitão América</option>
+                <option value="gaviaoarqueiro">Gavião Arqueiro</option>
+                <option value="homemformiga">Homem-Formiga</option>
+                <option value="capitamarvel">Capitã Marvel</option>
             </optgroup>
             <optgroup label="DC">
-                <option value="Mulher-Maravilha">Mulher-Maravilha</option>
-                <option value="Superman">Superman</option>
-                <option value="Batman">Batman</option>
-                <option value="Flash">Flah</option>
+                <option value="mulhermaravilha">Mulher-Maravilha</option>
+                <option value="superman">Superman</option>
+                <option value="batman">Batman</option>
+                <option value="flash">Flash</option>
+                <option value="lanternaverde">Lanterna Verde</option>
             </optgroup>
         </select><br>
 
