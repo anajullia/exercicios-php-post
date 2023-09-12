@@ -34,37 +34,37 @@ if($universo == "DC"){
     }
 }
 else if($universo == "Marvel"){
-if($heroi == "Rocket"){
+if($heroi == "homemdeferro"){
     for($x=1;$x<=$qtd_heroi;$x++){
-        echo "<img src='img/Rocket.jpg'>";
+        echo "<img src='img/homemdeferro.webp'>";
     }
 }
-else if($heroi == "Homem de Ferro"){
+else if($heroi == "capitaoamerica"){
     for($x=1;$x<=$qtd_heroi;$x++){
-        echo "<img src='img/Homem de ferro.jpg'>";
+        echo "<img src='img/capitaoamerica.webp'>";
     }
 }
-else if($heroi == "Capitao america"){
+else if($heroi == "gaviaoarqueiro"){
     for($x=1;$x<=$qtd_heroi;$x++){
-        echo "<img src='img/Capitao america.jpg'>";
+        echo "<img src='img/gaviaoarqueiro.webp'>";
     }
 }
-else if($heroi == "Capita marvel"){
+else if($heroi == "homemformiga"){
     for($x=1;$x<=$qtd_heroi;$x++){
-        echo "<img src='img/Capita marvel.jpg'>";
+        echo "<img src='img/homemformiga.webp'>";
     }
 }
-else if($heroi == "Homen aranha"){
+else if($heroi == "capitamarvel"){
     for($x=1;$x<=$qtd_heroi;$x++){
-        echo "<img src='img/Homen aranha.png'>";
+        echo "<img src='img/capitamarvel.webp'>";
     }
 }
 else{
-    echo "Não é válido";
+    echo "O herói é inválido ou não pertence ao universo";
 }
 }
 else{
-echo "Não é valido";
+echo "Universo inválido";
 }
 
 
